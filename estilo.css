@@ -5,3 +5,13 @@
    --cor-destaque:EC5B38;
    --cor-texto:1B5E20;
 }
+
+body{
+background-color:var(--cor-fundo);
+color:var(--cor-texto);
+display: flex;
+align-items: center;
+justify-self:center;
+min-height: 100vh;
+
+}
