@@ -22,7 +22,7 @@ text-align: center;
 padding: 20px;
 }
 button{
-background-color: var(--cor-principal);
+background-color: var(--cor-secundaria);
 color:var(--cor-texto);
 border:none;
 border-radius: 15px;

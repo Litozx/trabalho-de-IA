@@ -1,3 +1,9 @@
+const caixaPrincipal= document.querySelector(".caixa-principal")
+const caixaPerguntas= document.querySelector(".caixa-principal")
+const caixaAlternativas=document.querySelector(".caixa-principal")
+const caixaResultado= document.querySelector(".caixa-principal")
+const textoResultado= document.querySelector(".texto-principal")
+
 const perguntas = [
     {
         enunciado: "O último ano da faculdade começou e o grande desafio do Trabalho de Conclusão de Curso (TCC) finalmente chegou. O professor orientador pede para você escolher a abordagem do seu projeto. Qual caminho você decide seguir?",
@@ -65,3 +71,12 @@ const perguntas = [
         ]
     }
 ];
+
+let atual= 0;
+let perguntaAtual;
+let historiaFinal = ""
+
+function mostraPergunta(){
+
+}
+    
