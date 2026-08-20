@@ -11,7 +11,7 @@ color:var(--cor-texto);
 display: flex;
 align-items: center;
 justify-self:center;
-min-height: 130vh;
+min-height: 100vh;
 }    
 .caixa-principal{
 background-color: var(--cor-principal);
