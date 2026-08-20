@@ -84,4 +84,5 @@ function mostraPergunta(){
   perguntaAtual = perguntas[atual]
   caixaPerguntas.textoContent = perguntaAtual
 }
-    
+
+mostraPergunta()
