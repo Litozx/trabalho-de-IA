@@ -97,10 +97,10 @@ function mostraAlternativas(){
 }
  function respostaSelecionada(opcaoSelecionada){
     console.log("text")
-         const afirmacoes = opcaoSelecionada.afirmacao
+    const afirmacoes = opcaoSelecionada.afirmacao
      historiaFinal += afirmacoes + ""
      atual++
-
+     mostraPergunta()
  }
      function mostraResultado(){
         caixaPerguntas.textContent = "Em 2049 ..."
