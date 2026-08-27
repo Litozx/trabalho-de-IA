@@ -110,6 +110,6 @@ function mostraAlternativas(){
 }
 
 
-mostraPergunta(){
+mostraPergunta()
 
- }
+ 
