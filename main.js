@@ -90,8 +90,8 @@ function mostraPergunta(){
 function mostraAlternativas(){
  for (const alternativas of perguntaAtual.alternativas){
     const botaoAlternativas=document.createElement("button")
-    botaoAlternativas.textContent = alternativa.texto
-    botaoAlternativas.addEventListener("click", ()=> respostaSelecionada(alternativa))
+    botaoAlternativas.textContent = alternativas.texto
+    botaoAlternativas.addEventListener("click", ()=> respostaSelecionada(alternativas))
     caixaAlternativas.appendChild(botaoAlternativas)
  }
  function respostaSelecionada(opcaoSelecionada){
