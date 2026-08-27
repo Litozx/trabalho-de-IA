@@ -94,6 +94,7 @@ function mostraAlternativas(){
     botaoAlternativas.addEventListener("click", ()=> respostaSelecionada(alternativas))
     caixaAlternativas.appendChild(botaoAlternativas)
  }
+}
  function respostaSelecionada(opcaoSelecionada){
      const afirmacoes = opcaoSelecionada.afirmacao
      historiaFinal += afirmacoes + ""
@@ -105,7 +106,7 @@ function mostraAlternativas(){
         textoResultado.textContent = historiaFinal
         caixaAlternativas.textContent = "";
      }
- }
+ 
 
 
 
