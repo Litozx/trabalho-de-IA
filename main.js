@@ -99,6 +99,7 @@ function mostraAlternativas(){
      historiaFinal += afirmacoes + ""
      atual++
 
+ }
      function mostraResultado(){
         caixaPerguntas.textContent = "Em 2049 ..."
         textoResultado.textContent = historiaFinal
@@ -107,7 +108,7 @@ function mostraAlternativas(){
  }
 
 
-}
+
 
 
 mostraPergunta()
