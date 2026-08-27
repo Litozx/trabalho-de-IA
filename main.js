@@ -69,7 +69,7 @@ const perguntas = [
                 afirmacao: "Decidiu continuar se especializando para se tornar uma referência técnica no seu segmento."
             }
         ]
-    }
+    },
 ];
 
 let atual= 0;
