@@ -11,13 +11,14 @@ const perguntas = [
             {
                 texto: "Desenvolver um projeto prático focado em resolver um problema real do mercado de trabalho.",
                 afirmacao:[ "Optou por uma abordagem prática no TCC, o que chamou a atenção de recrutadores logo no início do ano.",
-                "Afirmação 2"
+                ""
                 ]
             },
             {
                 texto: "Fazer uma pesquisa teórica aprofundada voltada para a vida acadêmica e científica.",
                 afirmacao: [ "Mergulhou na pesquisa científica, descobrindo uma grande paixão pelo ambiente acadêmico.",
-                "Afirmação 2"
+                ""
+
                 ]
             }
         ]
@@ -28,13 +29,13 @@ const perguntas = [
             {
                 texto: "Se candidatar para fazer parte da comissão e ajudar a organizar cada detalhe do evento.",
                 afirmacao: [ "Desenvolveu ótimas habilidades de liderança e negociação ao fazer parte da comissão de formatura.",
-                "Afirmação 2"
+                ""
             ]
             },
             {
                 texto: "Preferir não entrar na comissão e focar 100% o seu tempo nas matérias finais e no TCC.",
                 afirmacao:  ["Manteve o foco total nos estudos, garantindo notas altas na reta final do curso.",
-                    "Afirmação 2"
+                    ""
                 ]
             }
         ]
@@ -45,13 +46,13 @@ const perguntas = [
             {
                 texto: "Aceitar a vaga e conciliar a rotina puxada do trabalho com as entregas finais da faculdade.",
                 afirmacao: [ "Aprendeu a gerenciar melhor seu tempo sob pressão ao equilibrar o estágio e o fim da faculdade.",
-                "Afirmação 2"
+                ""
             ]
             },
             {
                 texto: "Recusar a vaga para evitar o desgaste excessivo e se dedicar exclusivamente aos últimos meses de curso.",
                 afirmacao: ["Priorizou sua saúde mental e o encerramento do ciclo acadêmico sem o estresse de uma jornada dupla.",
-                "Afirmação 2"
+                ""
             ]
             }
         ]
@@ -62,13 +63,13 @@ const perguntas = [
             {
                 texto: "Apresentar de forma inovadora e dinâmica, utilizando recursos visuais modernos e uma fala descontraída.",
                 afirmacao: [ "Surpreendeu a banca com uma apresentação marcante e demonstrou muita confiança ao falar em público.",
-                    "Afirmação 2"
+                    ""
                 ]
             },
             {
                 texto: "Seguir o modelo tradicional e rigoroso da academia, focando na precisão técnica dos dados.",
                 afirmacao: [ "Entregou uma defesa técnica impecável que foi elogiada pelo rigor e seriedade com a pesquisa.",
-                "Afirmação 2"
+                ""
                 ]
             }
         ]
@@ -79,13 +80,13 @@ const perguntas = [
             {
                 texto: "Entrar de cabeça no mercado de trabalho e buscar oportunidades na sua área imediatamente.",
                 afirmacao: [ "Iniciou sua trajetória profissional com garra, aplicando rapidamente tudo o que aprendeu na graduação.",
-                    "Afirmação 2"
+                    ""
                 ]
             },
             {
                 texto: "Continuar os estudos e engrenar em uma pós-graduação ou especialização.",
                 afirmacao: [ "Decidiu continuar se especializando para se tornar uma referência técnica no seu segmento.",
-                    "Afirmação 2"
+                    ""
                 ]
             }
         ]
