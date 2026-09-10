@@ -10,15 +10,16 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Desenvolver um projeto prático focado em resolver um problema real do mercado de trabalho.",
-                afirmacao:[ "Optou por uma abordagem prática no TCC, o que chamou a atenção de recrutadores logo no início do ano.",
-                ""
+                afirmacao: [
+                    "Optou por uma abordagem prática no TCC, o que chamou a atenção de recrutadores logo no início do ano.",
+                    "Sua entrega final foi considerada um dos projetos mais aplicáveis de toda a faculdade."
                 ]
             },
             {
                 texto: "Fazer uma pesquisa teórica aprofundada voltada para a vida acadêmica e científica.",
-                afirmacao: [ "Mergulhou na pesquisa científica, descobrindo uma grande paixão pelo ambiente acadêmico.",
-                ""
-
+                afirmacao: [
+                    "Mergulhou na pesquisa científica, descobrindo uma grande paixão pelo ambiente acadêmico.",
+                    "Deixou uma contribuição valiosa para a biblioteca da faculdade e para os alunos dos próximos anos."
                 ]
             }
         ]
@@ -28,14 +29,16 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Se candidatar para fazer parte da comissão e ajudar a organizar cada detalhe do evento.",
-                afirmacao: [ "Desenvolveu ótimas habilidades de liderança e negociação ao fazer parte da comissão de formatura.",
-                ""
-            ]
+                afirmacao: [
+                    "Desenvolveu ótimas habilidades de liderança e negociação ao fazer parte da comissão de formatura.",
+                    "Virou uma referência na turma e ajudou a criar memórias inesquecíveis para toda a faculdade."
+                ]
             },
             {
                 texto: "Preferir não entrar na comissão e focar 100% o seu tempo nas matérias finais e no TCC.",
-                afirmacao:  ["Manteve o foco total nos estudos, garantindo notas altas na reta final do curso.",
-                    ""
+                afirmacao: [
+                    "Manteve o foco total nos estudos, garantindo notas altas na reta final do curso.",
+                    "Aproveitou o tempo livre para frequentar o campus com menos pressão e curtir os últimos momentos da faculdade."
                 ]
             }
         ]
@@ -45,15 +48,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Aceitar a vaga e conciliar a rotina puxada do trabalho com as entregas finais da faculdade.",
-                afirmacao: [ "Aprendeu a gerenciar melhor seu tempo sob pressão ao equilibrar o estágio e o fim da faculdade.",
-                ""
-            ]
+                afirmacao: [
+                    "Aprendeu a gerenciar melhor seu tempo sob pressão ao equilibrar o estágio e o fim da faculdade.",
+                    "Consolidou seu aprendizado conectando a teoria da sala de aula com a prática profissional diária."
+                ]
             },
             {
                 texto: "Recusar a vaga para evitar o desgaste excessivo e se dedicar exclusivamente aos últimos meses de curso.",
-                afirmacao: ["Priorizou sua saúde mental e o encerramento do ciclo acadêmico sem o estresse de uma jornada dupla.",
-                ""
-            ]
+                afirmacao: [
+                    "Priorizou sua saúde mental e o encerramento do ciclo acadêmico sem o estresse de uma jornada dupla.",
+                    "Pôde viver intensamente os últimos meses do curso e fechar sua jornada acadêmica com chave de ouro."
+                ]
             }
         ]
     },
@@ -62,14 +67,16 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Apresentar de forma inovadora e dinâmica, utilizando recursos visuais modernos e uma fala descontraída.",
-                afirmacao: [ "Surpreendeu a banca com uma apresentação marcante e demonstrou muita confiança ao falar em público.",
-                    ""
+                afirmacao: [
+                    "Surpreendeu a banca com uma apresentação marcante e demonstrou muita confiança ao falar em público.",
+                    "Sua apresentação se tornou um modelo exemplar citado pelos professores para as próximas turmas da faculdade."
                 ]
             },
             {
                 texto: "Seguir o modelo tradicional e rigoroso da academia, focando na precisão técnica dos dados.",
-                afirmacao: [ "Entregou uma defesa técnica impecável que foi elogiada pelo rigor e seriedade com a pesquisa.",
-                ""
+                afirmacao: [
+                    "Entregou uma defesa técnica impecável que foi elogiada pelo rigor e seriedade com a pesquisa.",
+                    "Demonstrou que dominou os fundamentos científicos ensinados ao longo de todos os anos de graduação."
                 ]
             }
         ]
@@ -79,18 +86,20 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Entrar de cabeça no mercado de trabalho e buscar oportunidades na sua área imediatamente.",
-                afirmacao: [ "Iniciou sua trajetória profissional com garra, aplicando rapidamente tudo o que aprendeu na graduação.",
-                    ""
+                afirmacao: [
+                    "Iniciou sua trajetória profissional com garra, aplicando rapidamente tudo o que aprendeu na graduação.",
+                    "Sua boa formação na faculdade abriu portas em grandes empresas logo após o término do curso."
                 ]
             },
             {
                 texto: "Continuar os estudos e engrenar em uma pós-graduação ou especialização.",
-                afirmacao: [ "Decidiu continuar se especializando para se tornar uma referência técnica no seu segmento.",
-                    ""
+                afirmacao: [
+                    "Decidiu continuar se especializando para se tornar uma referência técnica no seu segmento.",
+                    "Aproveitou o ritmo de estudos da graduação para continuar evoluindo dentro da vida universitária."
                 ]
             }
         ]
-    },
+    }
 ];
 
 let atual= 0;
