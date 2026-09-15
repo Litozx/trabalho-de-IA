@@ -126,8 +126,7 @@ function mostraAlternativas(){
  }
 }
  function respostaSelecionada(opcaoSelecionada){
-    console.log("text")
-    const afirmacoes = opcaoSelecionada.afirmacao
+    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao)
      historiaFinal += afirmacoes + ""
      atual++
      mostraPergunta()
@@ -138,7 +137,9 @@ function mostraAlternativas(){
         caixaAlternativas.textContent = "";
      }
  
-
+function aleatorio(lista){
+const posicao = Math.random()*lista.length
+}
 
 
 
