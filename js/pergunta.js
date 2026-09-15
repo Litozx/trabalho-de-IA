@@ -1,5 +1,5 @@
 
-const perguntas = [
+export const perguntas = [
     {
         enunciado: "O último ano da faculdade começou e o grande desafio do Trabalho de Conclusão de Curso (TCC) finalmente chegou. O professor orientador pede para você escolher a abordagem do seu projeto. Qual caminho você decide seguir?",
         alternativas: [
