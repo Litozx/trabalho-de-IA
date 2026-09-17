@@ -4,6 +4,7 @@ console.log(posicao)
 return(lista[posicao])
 }
 
-export function (params) {
+export function aleatorio (lista) {
+  const posicao = Math.floor(Math.random())=*lista   
     
 }
