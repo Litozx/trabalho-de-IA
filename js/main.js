@@ -6,7 +6,7 @@ const caixaPerguntas= document.querySelector(".caixa-perguntas")
 const caixaAlternativas=document.querySelector(".caixa-alternativas")
 const caixaResultado= document.querySelector(".caixa-resultado")
 const textoResultado= document.querySelector(".texto-resultado")
-
+const,botaoIniciar=document.querySelector(".iniciar-btn")
 const perguntas = [
     {
         enunciado: "O último ano da faculdade começou e o grande desafio do Trabalho de Conclusão de Curso (TCC) finalmente chegou. O professor orientador pede para você escolher a abordagem do seu projeto. Qual caminho você decide seguir?",
@@ -109,7 +109,8 @@ let atual= 0;
 let perguntaAtual;
 let historiaFinal = ""
 
-function mostraPergunta(){
+botaoInicial
+function mos.addEventListener("click", iniciajogo){
   if (atual>= perguntas.length) {
     mostraResultado()
     return
