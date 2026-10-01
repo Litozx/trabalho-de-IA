@@ -110,7 +110,7 @@ let perguntaAtual;
 let historiaFinal = ""
 
 botaoInicial
-function mos.addEventListener("click", iniciajogo){
+function mos.addEventListener("click", iniciajogo)
   if (atual>= perguntas.length) {
     mostraResultado()
     return
@@ -119,7 +119,7 @@ function mos.addEventListener("click", iniciajogo){
   caixaPerguntas.textContent = perguntaAtual.enunciado
   caixaAlternativas.textContent = "";
   mostraAlternativas()
-}
+
 
 function mostraAlternativas(){
  for (const alternativas of perguntaAtual.alternativas){
