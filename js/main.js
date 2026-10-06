@@ -60,6 +60,6 @@ function mostraAlternativas(){
 
 
 
-mostraPergunta()
+
 
  
