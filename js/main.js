@@ -16,7 +16,9 @@ let historiaFinal = ""
 
 botaoInicial.addEventListener("click", iniciajogo)
  
-function iniciarjogo(){ atual=0; historiaFinal = "" telaInicial.style.display="none" caixaPerguntas.classList.remove("mostrar") caixaAlternativas.classList.remove("mostrar") caixaResultado.classList.remove("mostrar") }
+function iniciarjogo(){ atual=0; historiaFinal = "" telaInicial.style.display="none" caixaPerguntas.classList.remove("mostrar") caixaAlternativas.classList.remove("mostrar") caixaResultado.classList.remove("mostrar") 
+   mostraPergunta()
+}
 
 function mostraPergunta(){
   if(atual>=perguntas.length){
