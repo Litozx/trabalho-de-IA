@@ -15,7 +15,7 @@ let historiaFinal = ""
 
 botaoIniciar.addEventListener("click", iniciajogo)
  
-function iniciajogo(){
+function iniciarjogo(){
  atual=0;
  historiaFinal = ""
  telaInicial.style.display="none"
