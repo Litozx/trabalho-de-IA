@@ -16,8 +16,14 @@ let historiaFinal = ""
 
 botaoInicial.addEventListener("click", iniciajogo)
  
-function iniciarjogo(){ atual=0; historiaFinal = "" telaInicial.style.display="none" caixaPerguntas.classList.remove("mostrar") caixaAlternativas.classList.remove("mostrar") caixaResultado.classList.remove("mostrar") 
-   mostraPergunta()
+function iniciajogo(){
+ atual=0;
+ historiaFinal = ""
+ telaInicial.style.display="none"
+ caixaPerguntas.classList.remove("mostrar")
+ caixaAlternativas.classList.remove("mostrar") 
+ caixaResultado.classList.remove("mostrar") 
+ mostraPergunta()
 }
 
 function mostraPergunta(){
